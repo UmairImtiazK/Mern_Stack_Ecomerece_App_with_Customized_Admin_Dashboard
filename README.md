@@ -1,4 +1,4 @@
-MERN Stack E-Commerce App with Customized Admin Dashboard
+**MERN Stack E-Commerce App with Customized Admin Dashboard**
 
 Introduction
 This project is a full-stack E-Commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It includes a customized admin dashboard for managing products, orders, and users, providing a seamless experience for both end-users and administrators.
@@ -33,41 +33,29 @@ Multer for file uploads (e.g., product images)
 Stripe/PayPal for payment processing
 Installation Guide
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/UmairImtiazK/Mern_Stack_Ecomerece_App_with_Customized_Admin_Dashboard.git  
 cd Mern_Stack_Ecomerece_App_with_Customized_Admin_Dashboard  
 Install dependencies:
 
 For the backend:
-bash
-Copy code
 cd backend  
 npm install  
 For the frontend:
-bash
-Copy code
 cd frontend  
 npm install  
 Environment Variables:
 Create a .env file in the root directory with the following variables:
 
 env
-Copy code
 MONGO_URI=<your_mongodb_connection_string>  
 JWT_SECRET=<your_secret_key>  
 STRIPE_KEY=<your_stripe_key>  
 Run the application:
 
 Start the backend server:
-bash
-Copy code
 cd backend  
 npm run dev  
 Start the frontend server:
-bash
-Copy code
 cd frontend  
 npm start  
 Open your browser and navigate to http://localhost:3000.
