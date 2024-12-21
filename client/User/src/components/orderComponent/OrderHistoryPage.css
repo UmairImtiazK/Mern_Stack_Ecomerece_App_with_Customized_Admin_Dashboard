@@ -1,0 +1,63 @@
+/*  */
+
+.order-history-page {
+    background-color: #f8f9fa; /* Light background for a clean look */
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .order-history-page h2 {
+    font-size: 2rem;
+    color: #343a40; /* Darker text for better readability */
+    margin-bottom: 20px;
+  }
+  
+  .order-history-page p {
+    font-size: 1rem;
+    color: #6c757d; /* Subtle color for text */
+    margin: 0;
+  }
+  
+  .order-history-page ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .order-history-page ul li {
+    background-color: #ffffff; /* White card style for individual orders */
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .order-history-page ul li:hover {
+    transform: translateY(-5px); /* Subtle hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .order-history-page ul li p {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+  }
+  
+  .order-history-page ul li p:last-child {
+    font-size: 1rem;
+    color: #28a745; /* Highlight total amount in green */
+  }
+  
+  .order-history-page .loading-text,
+  .order-history-page .empty-text {
+    font-size: 1.2rem;
+    color: #495057;
+    margin-top: 50px;
+  }
+  
